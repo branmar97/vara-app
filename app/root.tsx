@@ -46,7 +46,7 @@ export default function App() {
   return (
     <div className="flex min-h-screen">
       <Sidebar />
-      <main className="flex-1 ml-0 md:ml-64 w-full transition-all duration-200">
+      <main className="flex-1 ml-16 md:ml-64 w-full transition-all duration-200">
         <Outlet />
       </main>
     </div>

@@ -15,7 +15,7 @@ const SidebarNavLink: React.FC<SidebarNavLinkProps> = ({ to, label, icon }) => {
     <Link
       to={to}
       data-testid={`sidebar-link-${label.toLowerCase().replace(/\s+/g, "-")}`}
-      className={`flex items-center gap-3 px-3 py-2 rounded-md transition-colors text-base font-medium
+      className={`flex items-center justify-center md:justify-start gap-3 px-2 md:px-3 py-2 rounded-md transition-colors text-base font-medium
         ${
           isActive
             ? "bg-blue-100 text-blue-600"
